@@ -2,6 +2,10 @@
 
 CLI application to switch between PulseAudio sinks, as defined by the user with a friendly name.
 
+# Requirements
+
+For this tool to function you must have the `pacmd` program installed on your (Linux) machine.
+
 # Installation
 
 `npm install -g paswitch`
