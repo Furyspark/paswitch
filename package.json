@@ -11,6 +11,13 @@
     "type": "git",
     "url": "https://github.com/MikauSchekzen/paswitch"
   },
+  "keywords": [
+    "pulseaudio",
+    "pulse",
+    "audio",
+    "pacmd",
+    "sink"
+  ],
   "author": "Tijmen Bok",
   "license": "MIT",
   "dependencies": {
