@@ -1,6 +1,6 @@
 {
   "name": "paswitch",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Switches PulseAudio devices by muting the others",
   "main": "index.js",
   "bin": "./bin/cli.js",
