@@ -22,7 +22,7 @@ Before you can begin, you need to add some sink data.
 
 Syntax: `paswitch set-sink <friendly-name> <sink-name>`
 
-Where `<friendly-name>` is the shorthand name you want to give to the sink, and `<sink-name>` is the name of the sink as seen in the command `pacmd list-sinks | grep "name:"` between the `<` and `>` characters (DON'T copy those characters along).
+Where `<friendly-name>` is the shorthand name you want to give to the sink, and `<sink-name>` is the name of the sink as seen in the command `pacmd list-sinks | grep "name:"` between the `<` and `>` characters.
 
 ## Remove sink
 
