@@ -6,6 +6,8 @@ CLI application to switch between PulseAudio sinks, as defined by the user with 
 
 For this tool to function you must have the `pacmd` program installed on your (Linux) machine.
 
+Optionally, you need `libnotify` (`libnotify` on Pacman for example) if you want notifications.
+
 # Installation
 
 `npm install -g paswitch`
