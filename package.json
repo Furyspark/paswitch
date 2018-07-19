@@ -1,12 +1,15 @@
 {
   "name": "paswitch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Switches PulseAudio devices by muting the others",
   "main": "index.js",
   "bin": "./bin/cli.js",
-  "private": true,
   "scripts": {
     "test": "node ./bin/cli.js --toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikauSchekzen/paswitch"
   },
   "author": "Tijmen Bok",
   "license": "MIT",
