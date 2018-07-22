@@ -54,11 +54,24 @@ Syntax: `paswitch list`
 
 This will list all memorized sinks.
 
+## Start a wizard
+
+Syntax: `paswitch wizard <type>`
+
+This will start a wizard of the selected type, to easily manage sinks.
+
 ## Options
 
 ```
 -d, --default      -- Switches to the target sink by making it the default sink (defaults to this is no -d and -m flags are specified)
 -m, --mute         -- Switches to the target sink by unmuting it and muting all other memorized sinks
+```
+
+## Wizard types
+
+```
+add-sink           -- Shows an interactive list of connected sinks to select and add
+remove-sink        -- Shows an interactive list of remembered sinks to forget
 ```
 
 Note that you can combine `--default` and `--mute` options.
