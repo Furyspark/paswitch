@@ -65,6 +65,7 @@ This will start a wizard of the selected type, to easily manage sinks.
 ```
 -d, --default      -- Switches to the target sink by making it the default sink (defaults to this is no -d and -m flags are specified)
 -m, --mute         -- Switches to the target sink by unmuting it and muting all other memorized sinks
+-r, --relocate     -- Relocates existing application sink inputs to the new sink
 ```
 
 ## Wizard types
