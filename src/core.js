@@ -39,6 +39,7 @@ Core.run = function() {
     let sink = DataManager.config.sinks.filter(obj => { return obj.name === CliOptions.options.friendlyName; })[0];
     if(sink == null) console.error("Could not find a sink with a friendly name of '"+CliOptions.options.friendlyName+"'");
     else this.switchToSink(CliOptions.options.friendlyName);
+    doSave = false;
   }
   // Toggle sink output
   else if(CliOptions.command === "toggle") {
@@ -54,6 +55,7 @@ Core.run = function() {
     let targetIndex = (currentIndex + 1) % sinkArr.length;
     let targetSinkObj = sinkArr[targetIndex];
     this.switchToSink(targetSinkObj.name);
+    doSave = false;
   }
   // Set/add sink
   else if(CliOptions.command === "set-sink") {
